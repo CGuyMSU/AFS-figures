@@ -1,4 +1,4 @@
-#contains the ggplot2 package along with other packages
+#contains the ggplot2 function along with other functions
 library(tidyverse) 
 #package for combining figures
 library(gridExtra)
