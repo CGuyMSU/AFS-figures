@@ -78,7 +78,7 @@ axis.title.x = element_text(size = 14, margin = margin(t = 10, r = 0, b = 0, l =
 #view the plot, will appear in R plotting window
 len_wt_afs
 
-#arragne the two plots side by side using the gridExtra package
+#arrange the two plots side by side using the gridExtra package
 ggplot_figure <- grid.arrange(len_wt_default, len_wt_afs, ncol = 2)
 
 #save the plot as a .tiff as a very large file, which is publication quality
